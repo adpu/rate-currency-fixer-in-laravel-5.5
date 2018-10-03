@@ -105,7 +105,7 @@ class HomesController extends Controller
 
 ```
 
-## Atention
+## Attention
 
 Free version of "Fixer" works with EUR currency only.
 It is recommendable to use different services to solve situations in case of failure. To make it :
