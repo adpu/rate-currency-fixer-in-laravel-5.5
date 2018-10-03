@@ -108,6 +108,17 @@ class HomesController extends Controller
 ## Atention
 
 Free version of "Fixer" works with EUR currency only.
+It is recommendable to use different services to solve situations in case of failure. To make it :
+
+```
+'services' => [
+    'fixer' => ['access_key' => 'YOUR_KEY'],
+    'currency_layer' => ['access_key' => 'secret', 'enterprise' => false],
+    'forge' => ['api_key' => 'secret'],
+] 
+
+```
+
 
 ## References:
 
